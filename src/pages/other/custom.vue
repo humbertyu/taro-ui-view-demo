@@ -16,7 +16,7 @@ export default {
   },
   data () {
     return {
-      msg: 'Hello world!',
+      msg: 'Hello world!444',
       show: false
     }
   },

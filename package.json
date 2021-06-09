@@ -57,7 +57,6 @@
     "eslint": "^6.8.0",
     "eslint-config-taro": "3.2.10",
     "eslint-plugin-vue": "^6.x",
-    "stylelint": "9.3.0",
     "typescript": "^3.7.0",
     "vue-loader": "^15.9.2"
   }

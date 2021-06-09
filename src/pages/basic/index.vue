@@ -13,7 +13,7 @@
         onClick={this.gotoPanel}
       >
         <view class='module-list__icon'>
-          <img v-bind:src='item.icon' class='img' mode='widthFix' />
+          <img :src='item.icon' class='img' />
         </view>
         <view class='module-list__info'>
           <view class='title'>{{item.title}}</view>
@@ -51,7 +51,7 @@ export default {
           id: 'Basic',
           title: '基础',
           content: '包含颜色、文本、图标等',
-          icon: '../../assets/images/icon-list-basic.png'
+          icon: import('../../assets/images/icon-list-basic.png')
         },
         {
           id: 'View',

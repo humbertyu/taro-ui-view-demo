@@ -51,7 +51,7 @@ export default {
           id: 'Basic',
           title: '基础',
           content: '包含颜色、文本、图标等',
-          icon: import('../../assets/images/icon-list-basic.png')
+          icon: require('../../assets/images/icon-list-basic.png')
         },
         {
           id: 'View',

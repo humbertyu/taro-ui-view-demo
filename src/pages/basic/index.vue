@@ -1,7 +1,7 @@
 <template>
   <view class="page page-index">
     <view class="logo">
-      <img src="exp.bdstatic.com/static/exp-pc/common-jquery/widget/search-box/img/logo_422270c.png" class='img' />
+      <image src="exp.bdstatic.com/static/exp-pc/common-jquery/widget/search-box/img/logo_422270c.png" class='img' />
     </view>
     <view class='page-title'>Taro UI</view>
     <view class='module-list'>
@@ -13,7 +13,7 @@
         onClick={this.gotoPanel}
       >
         <view class='module-list__icon'>
-          <img :src='item.icon' class='img' />
+          <image :src='item.icon' class='img' />
         </view>
         <view class='module-list__info'>
           <view class='title'>{{item.title}}</view>

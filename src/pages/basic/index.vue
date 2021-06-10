@@ -1,7 +1,7 @@
 <template>
   <view class="page page-index">
     <view class="logo">
-      <image src="exp.bdstatic.com/static/exp-pc/common-jquery/widget/search-box/img/logo_422270c.png" class='img' />
+      <image :src='logoImg' class='img' />
     </view>
     <view class='page-title'>Taro UI</view>
     <view class='module-list'>
@@ -57,41 +57,41 @@ export default {
           id: 'View',
           title: '视图',
           content: '包含通告栏、标签、徽标等',
-          icon: '../../assets/images/icon-list-view.png'
+          icon: require('../../assets/images/icon-list-view.png')
         },
         {
           id: 'Action',
           title: '操作反馈',
           content: '包含对话框、进度条、动作面板等',
-          icon: '../../assets/images/icon-list-view.png'
+          icon: require('../../assets/images/icon-list-action.png')
         },
         {
           id: 'Form',
           title: '表单',
           content: '包含输入框、单选框、复选框等',
-          icon: '../../assets/images/icon-list-view.png'
+          icon: require('../../assets/images/icon-list-form.png')
         },
         {
           id: 'Layout',
           title: '布局',
           content: '包含列表、浮层、卡片等',
-          icon: '../../assets/images/icon-list-view.png'
+          icon: require('../../assets/images/icon-list-layout.png')
         },
         {
           id: 'Navigation',
           title: '导航',
           content: '包含标签栏、导航栏、分段器等',
-          icon: '../../assets/images/icon-list-view.png'
+          icon: require('../../assets/images/icon-list-navigation.png')
         },
         {
           id: 'Advanced',
           title: '高阶组件',
           content: '包含日历等',
-          icon: '../../assets/images/icon-list-view.png'
+          icon: require('../../assets/images/icon-list-hoc.png')
         }
       ],
-      msg: 'Hello world!',
-      show: false
+      logoImg: require('../../assets/images/logo_taro.png')
+
     }
   },
   methods: {

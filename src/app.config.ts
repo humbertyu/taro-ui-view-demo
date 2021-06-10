@@ -1,6 +1,7 @@
 export default {
   pages: [
     'pages/index/index'
+    // 'pages/panel/index'
   ],
   window: {
     backgroundTextStyle: 'light',

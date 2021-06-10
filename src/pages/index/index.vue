@@ -3,7 +3,7 @@
     <view class="logo">
       <image :src='logoImg' class='img' />
     </view>
-    <view class='page-title'>Taro UI</view>
+    <view class='page-title'>Taro Vue UI</view>
     <view class='module-list'>
       <view v-for="item in items"
         class='module-list__item'
@@ -27,13 +27,9 @@
 </template>
 
 <script>
-// 按需引入, 更小的应用体积
-import { AtIcon, AtButton, AtToast, AtNoticebar } from 'taro-ui-vue'
+
 import Taro from '@tarojs/taro'
 import "taro-ui-vue/dist/style/components/icon.scss";
-import "taro-ui-vue/dist/style/components/button.scss"
-import "taro-ui-vue/dist/style/components/toast.scss"
-import "taro-ui-vue/dist/style/components/noticebar.scss"
 import './index.scss'
 export default {
   data () {
@@ -87,24 +83,11 @@ export default {
     }
   },
   methods: {
-    handleClick () {
-      this.show = true
-    },
-    handleClose () {
-      this.show = false
-    },
-    toCustom() {
-      this.show = true
-      Taro.redirectTo({
-        url: '/pages/other/custom'
-      })
-    },
     gotoPanel(id) {
-      console.log("in");
       console.log("navigate to: " + id);
-      // Taro.navigateTo({
-      //   url: `/pages/panel/index?id=${id.toLowerCase()}`
-      // })
+      Taro.navigateTo({
+        url: `/pages/panel/index?id=${id.toLowerCase()}`
+      })
     },
     onShareAppMessage() {
       return {

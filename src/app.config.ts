@@ -1,12 +1,12 @@
 export default {
   pages: [
-    'pages/index/index'
-    // 'pages/panel/index'
+    'pages/index/index',
+    'pages/panel/index'
   ],
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
-    navigationBarTitleText: 'WeChat',
+    navigationBarTitleText: 'Taro Vue UI',
     navigationBarTextStyle: 'black'
   }
 }

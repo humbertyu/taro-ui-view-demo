@@ -1,13 +1,15 @@
 @import '~taro-ui-vue/dist/style/mixins/index.scss';
 @import '~taro-ui-vue/dist/style/variables/default.scss';
+@import '~taro-ui-vue/dist/style/components/icon.scss';
+
 /**
  * 分类页样式
  */
 .panel-header {
   display: flex;
   align-items: center;
-  padding: 60px;
-  height: 180px;
+  padding: 50px;
+  //height: 180px;
 
   &__icon {
     display: flex;

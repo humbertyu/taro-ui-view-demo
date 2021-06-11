@@ -10,15 +10,14 @@
 
     <view class='panel-body'>
       <view class='component-list'>
-
         <view v-for="item in itemList"
           class='component-list__item'
+              @tap="gotoComponent(item.id)"
           :key="item.id"
         >
           <text class='name'>{{item.id }} {{item.name}}</text>
           <text class='at-icon at-icon-chevron-right' />
         </view>
-
       </view>
     </view>
   </view>
@@ -279,19 +278,24 @@ export default {
           }
         ]
       },
+      currentId: "",
       icon: "",
       title: "",
       itemList: []
     }
   },
   mounted() {
-    let currentId = Taro.getCurrentInstance().router.params.id;
-    this.title = (this.panelNames[currentId] && this.panelNames[currentId].name) || '';
-    this.icon = (this.panelNames[currentId] && this.panelNames[currentId].icon) || '';
-    this.itemList = this.list[currentId] || [];
+    this.currentId = Taro.getCurrentInstance().router.params.id;
+    this.title = (this.panelNames[this.currentId] && this.panelNames[this.currentId].name) || '';
+    this.icon = (this.panelNames[this.currentId] && this.panelNames[this.currentId].icon) || '';
+    this.itemList = this.list[this.currentId] || [];
   },
   methods: {
-
+    gotoComponent(id) {
+      Taro.navigateTo({
+        url: `/pages/${this.currentId.toLowerCase()}/${id.toLowerCase()}/index`
+      })
+    }
   }
 }
 </script>

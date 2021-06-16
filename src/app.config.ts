@@ -12,7 +12,8 @@ export default {
     'pages/view/countdown/index',
     'pages/view/curtain/index',
     'pages/view/divider/index',
-    'pages/view/noticebar/index'
+    'pages/view/noticebar/index',
+    'pages/view/tag/index'
   ],
   window: {
     backgroundTextStyle: 'light',

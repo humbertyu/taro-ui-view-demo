@@ -9,7 +9,8 @@ export default {
     'pages/view/avatar/index',
     'pages/view/article/index',
     'pages/view/badge/index',
-    'pages/view/countdown/index'
+    'pages/view/countdown/index',
+    'pages/view/curtain/index'
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -5,7 +5,9 @@ export default {
     'pages/basic/color/index',
     'pages/basic/icon/index',
     'pages/basic/typo/index',
-    'pages/basic/button/index'
+    'pages/basic/button/index',
+    'pages/view/avatar/index',
+    'pages/view/article/index'
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -8,7 +8,8 @@ export default {
     'pages/basic/button/index',
     'pages/view/avatar/index',
     'pages/view/article/index',
-    'pages/view/badge/index'
+    'pages/view/badge/index',
+    'pages/view/countdown/index'
   ],
   window: {
     backgroundTextStyle: 'light',

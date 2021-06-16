@@ -7,7 +7,8 @@ export default {
     'pages/basic/typo/index',
     'pages/basic/button/index',
     'pages/view/avatar/index',
-    'pages/view/article/index'
+    'pages/view/article/index',
+    'pages/view/badge/index'
   ],
   window: {
     backgroundTextStyle: 'light',

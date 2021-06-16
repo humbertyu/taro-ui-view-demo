@@ -11,7 +11,8 @@ export default {
     'pages/view/badge/index',
     'pages/view/countdown/index',
     'pages/view/curtain/index',
-    'pages/view/divider/index'
+    'pages/view/divider/index',
+    'pages/view/noticebar/index'
   ],
   window: {
     backgroundTextStyle: 'light',

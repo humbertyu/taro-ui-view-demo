@@ -17,7 +17,8 @@ export default {
     'pages/view/timeline/index',
     'pages/view/swiper/index',
     'pages/view/load-more/index',
-    'pages/view/steps/index'
+    'pages/view/steps/index',
+    'pages/form/input/index'
   ],
   window: {
     backgroundTextStyle: 'light',

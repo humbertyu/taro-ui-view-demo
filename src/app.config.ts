@@ -18,6 +18,7 @@ export default {
     'pages/view/swiper/index',
     'pages/view/load-more/index',
     'pages/view/steps/index',
+    'pages/form/form/index',
     'pages/form/input/index'
   ],
   window: {

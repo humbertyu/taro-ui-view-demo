@@ -14,7 +14,8 @@ export default {
     'pages/view/divider/index',
     'pages/view/noticebar/index',
     'pages/view/tag/index',
-    'pages/view/timeline/index'
+    'pages/view/timeline/index',
+    'pages/view/swiper/index'
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -15,7 +15,9 @@ export default {
     'pages/view/noticebar/index',
     'pages/view/tag/index',
     'pages/view/timeline/index',
-    'pages/view/swiper/index'
+    'pages/view/swiper/index',
+    'pages/view/load-more/index',
+    'pages/view/steps/index'
   ],
   window: {
     backgroundTextStyle: 'light',

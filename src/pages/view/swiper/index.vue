@@ -88,11 +88,9 @@
   </view>
 </template>
 <script>
-
 import DocsHeader from '../../components/doc-header/index'
 import './index.scss'
 import { AtList, AtListItem, AtSlider } from 'taro-ui-vue'
-import Taro from '@tarojs/taro'
 
 export default {
   components: {

@@ -19,7 +19,8 @@ export default {
     'pages/view/load-more/index',
     'pages/view/steps/index',
     'pages/form/form/index',
-    'pages/form/input/index'
+    'pages/form/input/index',
+    'pages/form/radio/index'
   ],
   window: {
     backgroundTextStyle: 'light',

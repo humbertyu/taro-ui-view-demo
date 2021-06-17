@@ -63,7 +63,6 @@
 import DocsHeader from '../../components/doc-header/index'
 import './index.scss'
 import { AtToast, AtForm, AtInput, AtCheckbox, AtButton } from 'taro-ui-vue'
-import Taro from '@tarojs/taro'
 
 export default {
   components: {

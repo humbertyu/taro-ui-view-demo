@@ -20,7 +20,8 @@ export default {
     'pages/view/steps/index',
     'pages/form/form/index',
     'pages/form/input/index',
-    'pages/form/radio/index'
+    'pages/form/radio/index',
+    'pages/form/checkbox/index'
   ],
   window: {
     backgroundTextStyle: 'light',

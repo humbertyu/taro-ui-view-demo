@@ -31,7 +31,8 @@ export default {
     'pages/form/search-bar/index',
     'pages/form/image-picker/index',
     'pages/form/range/index',
-    'pages/layout/flex/index'
+    'pages/layout/flex/index',
+    'pages/layout/grid/index'
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -22,7 +22,9 @@ export default {
     'pages/form/input/index',
     'pages/form/radio/index',
     'pages/form/checkbox/index',
-    'pages/form/switch/index'
+    'pages/form/switch/index',
+    'pages/form/rate/index',
+    'pages/form/input-number/index'
   ],
   window: {
     backgroundTextStyle: 'light',

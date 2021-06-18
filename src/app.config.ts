@@ -30,7 +30,8 @@ export default {
     'pages/form/slider/index',
     'pages/form/search-bar/index',
     'pages/form/image-picker/index',
-    'pages/form/range/index'
+    'pages/form/range/index',
+    'pages/layout/flex/index'
   ],
   window: {
     backgroundTextStyle: 'light',

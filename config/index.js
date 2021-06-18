@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'taro-view-demo',
+  projectName: 'taro-ui-vue-demo',
   date: '2021-6-8',
   designWidth: 750,
   deviceRatio: {

@@ -28,7 +28,8 @@ export default {
     'pages/form/textarea/index',
     'pages/form/picker/index',
     'pages/form/slider/index',
-    'pages/form/search-bar/index'
+    'pages/form/search-bar/index',
+    'pages/form/image-picker/index'
   ],
   window: {
     backgroundTextStyle: 'light',

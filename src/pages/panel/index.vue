@@ -195,10 +195,6 @@ export default {
             name: '选择器'
           },
           {
-            id: 'Picker-View',
-            name: '滚动选择器'
-          },
-          {
             id: 'Slider',
             name: '滑动条'
           },

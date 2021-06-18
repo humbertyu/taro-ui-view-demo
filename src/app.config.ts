@@ -25,7 +25,8 @@ export default {
     'pages/form/switch/index',
     'pages/form/rate/index',
     'pages/form/input-number/index',
-    'pages/form/textarea/index'
+    'pages/form/textarea/index',
+    'pages/form/picker/index'
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -33,7 +33,8 @@ export default {
     'pages/form/range/index',
     'pages/layout/flex/index',
     'pages/layout/grid/index',
-    'pages/layout/list/index'
+    'pages/layout/list/index',
+    'pages/layout/card/index'
   ],
   window: {
     backgroundTextStyle: 'light',

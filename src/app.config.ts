@@ -32,7 +32,8 @@ export default {
     'pages/form/image-picker/index',
     'pages/form/range/index',
     'pages/layout/flex/index',
-    'pages/layout/grid/index'
+    'pages/layout/grid/index',
+    'pages/layout/list/index'
   ],
   window: {
     backgroundTextStyle: 'light',

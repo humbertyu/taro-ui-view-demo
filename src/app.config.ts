@@ -24,7 +24,8 @@ export default {
     'pages/form/checkbox/index',
     'pages/form/switch/index',
     'pages/form/rate/index',
-    'pages/form/input-number/index'
+    'pages/form/input-number/index',
+    'pages/form/textarea/index'
   ],
   window: {
     backgroundTextStyle: 'light',

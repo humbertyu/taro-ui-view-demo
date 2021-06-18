@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "./",
-  "projectname": "taro-view-demo",
+  "projectname": "taro-ui-view-demo",
   "description": "view-demo",
   "appid": "touristappid",
   "setting": {

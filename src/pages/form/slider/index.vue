@@ -68,7 +68,7 @@
         <view class='panel__content'>
           <view class='example-item'>
             <view class='example-item__desc'>step=1, blockSize=24</view>
-            <AtSlider :step="1" value="50" showValue disabled></AtSlider>
+            <AtSlider :step="1" :value="50" showValue disabled></AtSlider>
           </view>
         </view>
       </view>

@@ -45,7 +45,8 @@ export default {
     'pages/action/swipe-action/index',
     'pages/action/message/index',
     'pages/advanced/calendar/index',
-    'pages/navigation/navbar/index'
+    'pages/navigation/navbar/index',
+    'pages/navigation/tabbar/index'
   ],
   window: {
     backgroundTextStyle: 'light',

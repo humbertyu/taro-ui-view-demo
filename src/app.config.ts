@@ -38,7 +38,8 @@ export default {
     'pages/layout/float-layout/index',
     'pages/layout/accordion/index',
     'pages/action/action-sheet/index',
-    'pages/action/activity-indicator/index'
+    'pages/action/activity-indicator/index',
+    'pages/action/modal/index'
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -47,7 +47,8 @@ export default {
     'pages/advanced/calendar/index',
     'pages/navigation/navbar/index',
     'pages/navigation/tabbar/index',
-    'pages/navigation/tabs/index'
+    'pages/navigation/tabs/index',
+    'pages/navigation/segmented-control/index'
   ],
   window: {
     backgroundTextStyle: 'light',

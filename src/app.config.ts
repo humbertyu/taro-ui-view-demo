@@ -39,7 +39,8 @@ export default {
     'pages/layout/accordion/index',
     'pages/action/action-sheet/index',
     'pages/action/activity-indicator/index',
-    'pages/action/modal/index'
+    'pages/action/modal/index',
+    'pages/action/progress/index'
   ],
   window: {
     backgroundTextStyle: 'light',

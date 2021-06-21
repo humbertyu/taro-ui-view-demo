@@ -43,7 +43,8 @@ export default {
     'pages/action/progress/index',
     'pages/action/toast/index',
     'pages/action/swipe-action/index',
-    'pages/action/message/index'
+    'pages/action/message/index',
+    'pages/advanced/calendar/index'
   ],
   window: {
     backgroundTextStyle: 'light',

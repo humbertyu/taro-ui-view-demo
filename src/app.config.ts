@@ -40,7 +40,8 @@ export default {
     'pages/action/action-sheet/index',
     'pages/action/activity-indicator/index',
     'pages/action/modal/index',
-    'pages/action/progress/index'
+    'pages/action/progress/index',
+    'pages/action/toast/index'
   ],
   window: {
     backgroundTextStyle: 'light',

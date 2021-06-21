@@ -44,7 +44,8 @@ export default {
     'pages/action/toast/index',
     'pages/action/swipe-action/index',
     'pages/action/message/index',
-    'pages/advanced/calendar/index'
+    'pages/advanced/calendar/index',
+    'pages/navigation/navbar/index'
   ],
   window: {
     backgroundTextStyle: 'light',

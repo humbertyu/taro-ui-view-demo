@@ -48,7 +48,8 @@ export default {
     'pages/navigation/navbar/index',
     'pages/navigation/tabbar/index',
     'pages/navigation/tabs/index',
-    'pages/navigation/segmented-control/index'
+    'pages/navigation/segmented-control/index',
+    'pages/navigation/pagination/index'
   ],
   window: {
     backgroundTextStyle: 'light',

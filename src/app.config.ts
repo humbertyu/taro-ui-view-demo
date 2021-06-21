@@ -35,7 +35,8 @@ export default {
     'pages/layout/grid/index',
     'pages/layout/list/index',
     'pages/layout/card/index',
-    'pages/layout/float-layout/index'
+    'pages/layout/float-layout/index',
+    'pages/layout/accordion/index'
   ],
   window: {
     backgroundTextStyle: 'light',

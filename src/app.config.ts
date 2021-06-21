@@ -46,7 +46,8 @@ export default {
     'pages/action/message/index',
     'pages/advanced/calendar/index',
     'pages/navigation/navbar/index',
-    'pages/navigation/tabbar/index'
+    'pages/navigation/tabbar/index',
+    'pages/navigation/tabs/index'
   ],
   window: {
     backgroundTextStyle: 'light',

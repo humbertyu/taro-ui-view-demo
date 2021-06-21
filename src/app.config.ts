@@ -34,7 +34,8 @@ export default {
     'pages/layout/flex/index',
     'pages/layout/grid/index',
     'pages/layout/list/index',
-    'pages/layout/card/index'
+    'pages/layout/card/index',
+    'pages/layout/float-layout/index'
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -42,7 +42,8 @@ export default {
     'pages/action/modal/index',
     'pages/action/progress/index',
     'pages/action/toast/index',
-    'pages/action/swipe-action/index'
+    'pages/action/swipe-action/index',
+    'pages/action/message/index'
   ],
   window: {
     backgroundTextStyle: 'light',

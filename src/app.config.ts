@@ -37,7 +37,8 @@ export default {
     'pages/layout/card/index',
     'pages/layout/float-layout/index',
     'pages/layout/accordion/index',
-    'pages/action/action-sheet/index'
+    'pages/action/action-sheet/index',
+    'pages/action/activity-indicator/index'
   ],
   window: {
     backgroundTextStyle: 'light',

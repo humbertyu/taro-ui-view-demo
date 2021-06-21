@@ -41,7 +41,8 @@ export default {
     'pages/action/activity-indicator/index',
     'pages/action/modal/index',
     'pages/action/progress/index',
-    'pages/action/toast/index'
+    'pages/action/toast/index',
+    'pages/action/swipe-action/index'
   ],
   window: {
     backgroundTextStyle: 'light',

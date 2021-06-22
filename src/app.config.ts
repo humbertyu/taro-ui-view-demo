@@ -50,7 +50,8 @@ export default {
     'pages/navigation/tabs/index',
     'pages/navigation/segmented-control/index',
     'pages/navigation/pagination/index',
-    'pages/navigation/drawer/index'
+    'pages/navigation/drawer/index',
+    'pages/navigation/indexes/index'
   ],
   window: {
     backgroundTextStyle: 'light',
